@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="gb2312">
+    <title>Divcssone</title>
+    
+    <meta name="author" content="zhengms">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">Sun Shine</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Divcssone </h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>15 August 2013</span>
+    </div>
+    <div class="content">
+      <p>对第一次专门做前端的我，给我一张psd图让我切图，还真有点茫然，不知道从何做起，拿到这张psd图，然后一个流程是怎样的。 叫兽，只告诉我就是切成html，我知道要切成html，因为我理解的html比较肤浅就是所谓的html代码.听到这，我就纳闷了，资源已经有了， 切好的又都是table标签的布局的html代码，根本没用。因为我们通常是用div+css布局。那我就觉得这样为什么还要切呢。但是，叫兽也是很无语， 给我一张图，就是让我切成html，他理解的比较深入，他的意思应该是包括html的各种元素。我实在没办法，就照着自己想的， 自己用webstorm2+zencoding纯手写div+css的布局。后面有遇到问题，就请教典哥，典哥很认真的跟我讲了一下整个流程。灰常感谢。 叫兽也安排了另外一个同事具体的讲了一下切图的整个流程，很感谢这个课，讲的很好，让我对切图有了进一步的了解。 下面就总结下我自己对切图这部分的理解和心得</p>
+
+<h3 id='id3'>切图的流程：</h3>
+
+<ul>
+<li>
+<p><strong>弄清需求one</strong> <br />1.首先要弄清，这个是手机端还是PC端的，PC端一般最小宽度是960px<br />2.看下有几张设计图：认真观察设计图，要分析几个问题</p>
+
+<p>（1）设计图是否合理<br />（2）是否有通用模块可以拿出来共用<br />（3）是否要支持ie6<br />（4）整体的字体大小，背景，链接；一般手机上默认字体是16px，PC默认字体是12px，微软雅黑的</p>
+</li>
+
+<li>
+<p><strong>写html</strong><br /> 看整体架构可以分几块，分清哪些是可以用css渲染的，那些是要分块出来的。整体架构要写出来。尽量 整洁让人易懂。标签使用语义化标签</p>
+</li>
+
+<li>
+<p><strong>css</strong> <br /> 盒子模型<br /> （1）标准的盒子模型<br /> （2）IE6下的盒子模型<br /> 对这块还需要再进一步学习</p>
+</li>
+
+<li>
+<p><strong>优化图片image</strong> <br /> 对psd图，我们存储的时候，一般要存储成web html的，图片存为png格式的。对比较大的图片可以存成jpg格式。还有，因为每一张图片都是一个http请求， 所以尽量把图片都放在同一张上面，然后使用position定位。这个典哥传授的。</p>
+
+<h3 id='id4'>后期学习:</h3>
+
+<p>expression: 需要继续积累经验</p>
+</li>
+</ul>
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#github_blog-ref">
+    		github_blog <span>3</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>4</span></a></li>
+     
+    	<li><a href="/tags.html#beginner-ref">beginner <span>4</span></a></li>
+     
+    	<li><a href="/tags.html#jekyll-ref">jekyll <span>4</span></a></li>
+     
+    	<li><a href="/tags.html#githubblog-ref">githubblog <span>3</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/github_blog/2013/08/14/firstblog" title="Firstblog">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/github_blog/2013/08/15/divcsstwo" title="Divcsstwo">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2013 zhengms
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

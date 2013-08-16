@@ -4,7 +4,7 @@
  <title>Sun Shine</title>
  <link href="http://username.github.io/" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2013-08-16T11:29:25+08:00</updated>
+ <updated>2013-08-16T13:44:47+08:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>zhengms</name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>Div Css Two</title>
-   <link href="http://username.github.io/github_blog/2013/08/15/div-css-two"/>
+   <title>Divcsstwo</title>
+   <link href="http://username.github.io/github_blog/2013/08/15/divcsstwo"/>
    <updated>2013-08-15T00:00:00+08:00</updated>
-   <id>http://username.github.io/github_blog/2013/08/15/div-css-two</id>
+   <id>http://username.github.io/github_blog/2013/08/15/divcsstwo</id>
    <content type="html">&lt;p&gt;做过一些css，js的事情，但是没有深入研究。特别是浮动，定位，display，line-height这几个一直没有理解清楚。这段时间有认真的去看了一下。下面是 个人的一些理解。不对的地方请多指教&lt;/p&gt;
 
 &lt;h3 id='id5'&gt;要讲的几个知识点：&lt;/h3&gt;
@@ -109,10 +109,10 @@
  </entry>
  
  <entry>
-   <title>Div Css One</title>
-   <link href="http://username.github.io/github_blog/2013/08/15/div-css-one"/>
+   <title>Divcssone</title>
+   <link href="http://username.github.io/github_blog/2013/08/15/divcssone"/>
    <updated>2013-08-15T00:00:00+08:00</updated>
-   <id>http://username.github.io/github_blog/2013/08/15/div-css-one</id>
+   <id>http://username.github.io/github_blog/2013/08/15/divcssone</id>
    <content type="html">&lt;p&gt;对第一次专门做前端的我，给我一张psd图让我切图，还真有点茫然，不知道从何做起，拿到这张psd图，然后一个流程是怎样的。 叫兽，只告诉我就是切成html，我知道要切成html，因为我理解的html比较肤浅就是所谓的html代码.听到这，我就纳闷了，资源已经有了， 切好的又都是table标签的布局的html代码，根本没用。因为我们通常是用div+css布局。那我就觉得这样为什么还要切呢。但是，叫兽也是很无语， 给我一张图，就是让我切成html，他理解的比较深入，他的意思应该是包括html的各种元素。我实在没办法，就照着自己想的， 自己用webstorm2+zencoding纯手写div+css的布局。后面有遇到问题，就请教典哥，典哥很认真的跟我讲了一下整个流程。灰常感谢。 叫兽也安排了另外一个同事具体的讲了一下切图的整个流程，很感谢这个课，讲的很好，让我对切图有了进一步的了解。 下面就总结下我自己对切图这部分的理解和心得&lt;/p&gt;
 
 &lt;h3 id='id3'&gt;切图的流程：&lt;/h3&gt;
@@ -143,10 +143,10 @@
  </entry>
  
  <entry>
-   <title>Github Blog</title>
-   <link href="http://username.github.io/github_blog/2013/08/14/github-blog"/>
+   <title>Firstblog</title>
+   <link href="http://username.github.io/github_blog/2013/08/14/firstblog"/>
    <updated>2013-08-14T00:00:00+08:00</updated>
-   <id>http://username.github.io/github_blog/2013/08/14/github-blog</id>
+   <id>http://username.github.io/github_blog/2013/08/14/firstblog</id>
    <content type="html">&lt;p&gt;这两天在研究github博客怎么弄，怎么在github上写博客，写的是大家通俗易懂的博客，而不是一大堆代码. 网上有很多这样的博客，我是通过参考网上的一些文章结合自己的实际从不会到会的一步步实现成功的，自己一个人 摸索期间，遇到很多问题，都解决了。下面给大家分享下我这两天研究成果和学习的一些心得，逐步建立github博客的步骤。 还有就是网上的一些其他文章里面存在一些问题。这里介绍的是window系统的&lt;/p&gt;
 
 &lt;h3 id='id1'&gt;要用到的一些工具和知识：&lt;/h3&gt;
