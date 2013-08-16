@@ -1,5 +1,5 @@
 # This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -8,15 +8,15 @@ pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-#Jekyll Bootstrap
-title : Sun Shine
+#
+title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
-  name : zhengms
-  email : 910752877@qq.com
-  github : zms91
-  twitter : zms91
-  feedburner : zms91
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
